@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Scripts{
+
+
+    <script src="~/psApp/psAppModule.js"></script>
+    <script src="~/psApp/psAppConfig.js"></script>
+    <script src="~/psApp/psAppRouteConfig.js"></script>
+
+    <script src="~/psapp/directives/psindexdirective.js"></script>
+    <script src="~/psApp/directives/psCarDetailsDirective.js"></script>
+    <script src="~/psapp/directives/psnewsdetailsdirective.js"></script>
+    <script src="~/psapp/directives/psnewsgriddirective.js"></script>
+    <script src="~/psapp/directives/psvehiclelistingsdirective.js"></script>
+
+    <script src="~/psApp/headerContent/headerContentDirective.js"></script>
+    <script src="~/psapp/headercontent/headercontentcontroller.js"></script>
+    <script src="~/psapp/footerContent/footerContentdirective.js"></script>
+    <script src="~/psapp/switcherContent/switcherContentdirective.js"></script>
+    <script src="~/psapp/userprofile/userprofiledirective.js"></script>
+    <script src="~/ext-modules/logindetails/logindetailsdirective.js"></script>
+    <script src="~/ext-modules/logindetails/logindetailscontroller.js"></script>
+
+    <script src="~/psapp/services/psAppServices.js"></script>
+    <script src="~/psapp/services/psapploginservice.js"></script>
+    <script src="~/psapp/carservice/carServiceController.js"></script>
+    <script src="~/psapp/carservice/carServiceDirective.js"></script>
+    <script src="~/psapp/carservice/selectcardirective.js"></script>
+    <script src="~/psapp/carservice/carservicecategorydirective.js"></script>
+    <script src="~/psapp/carservice/selectcentredirective.js"></script>
+    
+    <script src="~/ext-modules/index/indexModule.js"></script>
+    <script src="~/ext-modules/index/indexDirective.js"></script>
+    <script src="~/ext-modules/index/indexcontroller.js"></script>
+    <script src="~/ext-modules/index/carouseldirective.js"></script>
+    <script src="~/ext-modules/index/servicesdirective.js"></script>
+    <script src="~/ext-modules/index/latestoffersdirective.js"></script>
+    <script src="~/ext-modules/index/realfactsdirective.js"></script>
+    <script src="~/ext-modules/index/aboutusdirective.js"></script>
+    <script src="~/ext-modules/index/contactusdirective.js"></script>
+    <script src="~/ext-modules/index/customerfeedbackdirective.js"></script>
+    <script src="~/ext-modules/index/latestgallerydirective.js"></script>
+    <script src="~/ext-modules/index/newsandarticlesdirective.js"></script>
+    <script src="~/ext-modules/index/ourbrandsdirective.js"></script>
+    <script src="~/ext-modules/index/ourteamdirective.js"></script>
+    <script src="~/ext-modules/index/typesofvehiclesdirective.js"></script>
+    <script src="~/ext-modules/carDetails/carDetailsModule.js"></script>
+    <script src="~/ext-modules/carDetails/carDetailsDirective.js"></script>
+    <script src="~/ext-modules/cardetails/cardetailscontroller.js"></script>
+    <script src="~/ext-modules/newsdetails/newsdetailsmodule.js"></script>
+    <script src="~/ext-modules/newsdetails/newsdetailsdirective.js"></script>
+    <script src="~/ext-modules/newsdetails/newsdetailscontroller.js"></script>
+    <script src="~/ext-modules/newsgrid/newsgridmodule.js"></script>
+    <script src="~/ext-modules/newsgrid/newsgriddirective.js"></script>
+    <script src="~/ext-modules/newsgrid/newsgridcontroller.js"></script>
+    <script src="~/ext-modules/vehiclelistings/vehiclelistingsmodule.js"></script>
+    <script src="~/ext-modules/vehiclelistings/vehiclelistingsdirectives.js"></script>
+
+}
+
+    <!-- Loader -->
+<div id="page-preloader"><span class="spinner"></span></div>
+    <switcher-content></switcher-content>
+    <header-content></header-content>
+
+    <div class="wrapper" ui-view></div>
+    <footer-content></footer-content>
+    <span class="scroll-top"> <i class="fa fa-angle-up"> </i></span>

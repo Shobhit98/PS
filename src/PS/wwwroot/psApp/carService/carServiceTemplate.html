@@ -1,0 +1,38 @@
+﻿<div id="wrapper">
+    <div class="block-title">
+        <div class="block-title__inner section-bg section-bg_second">
+            <div class="bg-inner">
+                <h1 class="ui-title-page">Service</h1>
+                <div class="decor-1 center-block"></div>
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li class="active">Service</li>
+                </ol>
+            </div><!-- end bg-inner -->
+        </div><!-- end block-title__inner -->
+    </div><!-- end block-title -->
+
+    <div class="row">
+
+            <div id="form-container">
+
+                <div class="page-header text-center">
+                    <h2>Complete Your Service Steps</h2>
+
+                    <div id="status-buttons" class="text-center">
+                        <a ui-sref-active="active" ui-sref=".car"><span>1</span> Select Car</a>
+                        <a ui-sref-active="active" ui-sref=".centre"><span>2</span> Select Centre</a>
+                    </div>
+                </div>
+
+                <!-- use ng-submit to catch the form submission and use our Angular function -->
+                <form id="service-form" ng-submit="processForm()">
+                    <!-- our nested state views will be injected here -->
+                    <div id="form-views" ui-view></div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+   

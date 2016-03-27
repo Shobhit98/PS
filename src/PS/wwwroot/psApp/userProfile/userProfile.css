@@ -1,0 +1,49 @@
+﻿.ps-user-profile-small{
+    color:#333;
+    padding:47px 13px 0;
+}
+
+.fontChngRaleway{
+    font: 700 14px Raleway;
+}
+
+.ps-user-profile-small span{
+   font-size:18px;
+   margin-top:10px;
+   margin-right:10px;
+   color:white;
+}
+
+.ps-user-profile-small img{
+    width:40px;
+    height:40px;
+   margin-right:10px; 
+   background: no-repeat;
+   background-size:cover;  
+   border-radius: 150px;
+   margin-top: -15px;
+}
+
+.ps-dashboard-controls{
+    float: right;
+}
+
+.ps-user-profile-nickname{
+    padding-left: 10px;
+}
+
+.btn-default{
+    padding:4px;
+}
+.yamm .nav > li > div {
+    display:inline-flex; padding :50px 13px 5px;
+}
+.yamm .nav > li > div > a {
+    padding-right:15px; position:relative; font: 700 12px Raleway; color: #FFF; text-transform: uppercase;  transition: all .3s ease-out;
+}
+.yamm  .dropdown-menu{
+    margin-right:10px;
+}
+
+
+
